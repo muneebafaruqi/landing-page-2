@@ -1,0 +1,304 @@
+.container {
+    background: rgba(255, 106, 106, 0.92) url(../../images/LTP.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    background-blend-mode: darken;
+    height: 600px;
+    width: 1500px;
+}
+
+.container>.navbar>li {
+    display: inline-block;
+    position: sticky;
+    top: 0px;
+    right: 10px;
+    padding-top: 10px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+.container>h1 {
+    position: absolute;
+    top: 55px;
+    left: 20px;
+    color: azure;
+    z-index: 1;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.navbar {
+    background-color: rgb(54, 9, 9);
+    height: 50px;
+    font-size: 120%;
+    padding-right: 80px;
+    text-align: right;
+    word-spacing: 30px;
+    position: sticky;
+    top: 0px;
+}
+
+.container>.top>li {
+    display: inline-block;
+    color: azure;
+}
+
+.container>.top {
+    background-color: rgb(255, 106, 106);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    word-spacing: 1000px;
+}
+
+.container>.navbar>li>.active {
+    background-color: rgb(255, 106, 106);
+}
+
+.container>.navbar>li>a:hover {
+    background-color: rgb(255, 106, 106);
+    transition: 1s ease;
+}
+
+.container>.content {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    font-size: 60px;
+    text-align: center;
+    line-height: 5px;
+    color: azure;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container>.content>p {
+    font-size: 30px;
+}
+
+.welcome {
+    background-color: rgba(255, 156, 156, 0.608);
+    padding: 60px;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.welcome>.hp {
+    width: 80%;
+}
+
+.welcome>#btn {
+    float: right;
+    background-color: rgb(54, 9, 9);
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    border-radius: 5px;
+}
+
+.welcome>#btn:hover {
+    background-color: azure;
+    color: rgb(255, 106, 106);
+    cursor: pointer;
+}
+
+.discription {
+    text-align: center;
+    padding: 5%;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main {
+    height: 300px;
+    width: 1360px;
+    padding: 70px;
+    display: inline-block;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+
+
+#card1 {
+    width: 20%;
+}
+
+#card1>.icon {
+    background-color: rgb(54, 9, 9);
+    height: 70px;
+    width: 60px;
+    padding: 10px;
+}
+
+
+#card1>.disc {
+    position: absolute;
+    top: 1190px;
+    left: 170px;
+    width: 300px;
+    height: 50px;
+    color: rgb(31, 31, 31);
+}
+
+
+
+
+
+#card2 {
+    width: 20%;
+}
+
+#card2>.icon {
+    position: relative;
+    left: 480px;
+    bottom: 90px;
+    width: 80px;
+    background-color: rgb(54, 9, 9);
+
+}
+
+#card2>.disc {
+    position: absolute;
+    top: 1190px;
+    left: 650px;
+    width: 300px;
+    height: 50px;
+    color: rgb(31, 31, 31);
+}
+
+
+
+
+#card3{
+    width: 20%;
+}
+
+#card3>.icon {
+    background-color: rgb(54, 9, 9);
+    height: 50px;
+    width: 40px;
+    padding: 20px;
+    position: relative;
+    bottom: 175px;
+    left: 930px;
+}
+
+
+#card3>.disc {
+    position: absolute;
+    top: 1190px;
+    left: 1100px;
+    width: 300px;
+    height: 50px;
+    color: rgb(31, 31, 31);
+}
+
+#card4{
+    width: 20%;
+}
+
+#card4>.icon {
+    background-color: rgb(54, 9, 9);
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    position: relative;
+    bottom: 85px;
+    
+}
+
+
+#card4 >.disc {
+    position: absolute;
+    top: 1370px;
+    left:180px;
+    width: 300px;
+    height: 50px;
+    color: rgb(31, 31, 31);
+   
+}
+
+#card5 {
+    width: 20%;
+}
+
+#card5>.icon {
+    position: relative;
+    left: 480px;
+    bottom: 170px; 
+    width: 80px;
+    height: 80px;
+    background-color: rgb(54, 9, 9);
+
+}
+
+#card5>.icon > #arrow{
+    position: relative;
+    left: 20px;
+    top: 25px;
+}
+
+#card5>.disc {
+    position: absolute;
+    top: 1370px;
+    left: 650px;
+    width: 300px;
+    height: 50px;
+    color: rgb(31, 31, 31);
+}
+
+
+
+#card6{
+    width: 20%;
+}
+
+#card6>.icon {
+    background-color: rgb(54, 9, 9);
+    height: 50px;
+    width: 40px;
+    padding: 20px;
+    position: relative;
+    bottom: 260px;
+    left: 930px;
+}
+
+
+#card6>.disc {
+    position: absolute;
+    top: 1360px;
+    left: 1100px;
+    width: 300px;
+    height: 50px;
+    color: rgb(31, 31, 31);
+}
+
+
+.last{
+    background-color: rgba(255, 156, 156, 0.608);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
